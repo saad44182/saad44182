@@ -1,0 +1,2 @@
+			aUserProfileData aUPD = externalUserMgr.getUserProfileData(loginId); 
+			String password = aUPD.getCredential(); 
