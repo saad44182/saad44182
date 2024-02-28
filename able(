@@ -1,0 +1,3 @@
+Hashtable ht = new Hashtable(); 
+ht.put("username", "user1"); 
+ht.put("password", "cryptic1"); 
