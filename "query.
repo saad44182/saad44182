@@ -1,0 +1,5 @@
+        it, err := q.Read(ctx)
+        if err != nil {
+                return fmt.Errorf("query.Read(): %w", err)
+        }
+        for {
