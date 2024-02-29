@@ -1,0 +1,7 @@
+                }
+                if err != nil {
+                        return err
+                }
+                fmt.Fprintln(w, row)
+        }
+        return nil
