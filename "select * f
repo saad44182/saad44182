@@ -1,0 +1,7 @@
+            url = re.findall('<li class="tys" style="float:left;width:360px;"><a href="(.*?)" target=', content)
+            i=0
+            for num in url:
+                i+=1
+                sql = "select * from ssjzw where url='%s'" % num
+                rs = dbmysql.fetchall(sql)
+                if len(rs) == 0:
