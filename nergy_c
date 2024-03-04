@@ -1,0 +1,6 @@
+                        energy_color = GREEN
+                    else:
+                        energy_color = RED
+                    pygame.draw.line(screen, energy_color, \
+                            (each.rect.left, each.rect.top -5), \
+                            (each.rect.left + each.rect.width * energy_remain, \
