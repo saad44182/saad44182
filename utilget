@@ -1,0 +1,6 @@
+            res = util.get('https://www.ssjzw.com/jzzp/pn{}'.format(page))
+            content = res['data'].decode('gb2312','ignore').replace('\n', '').replace('\r', '').replace('\t', '')
+            url = re.findall('<li class="tys" style="float:left;width:360px;"><a href="(.*?)" target=', content)
+            i=0
+            for num in url:
+                i+=1
