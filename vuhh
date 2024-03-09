@@ -1,0 +1,7 @@
+                            if company_2 == []:
+                                company=''
+                            else:
+                                company=company_2[0]
+                        else:
+                            company = company_ture[0]
+ 
