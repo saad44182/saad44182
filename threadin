@@ -1,0 +1,10 @@
+# -*-* encoding:UTF-8 -*-
+# author : shoushixiong
+# date   : 2018/11/22
+import threading
+import time
+list = [0,0,0,0,0,0,0,0,0,0,0,0]
+class myThread(threading.Thread):
+    def __init__(self,threadId,name,counter):
+        threading.Thread.__init__(self)
+        self.threadId = threadId
