@@ -1,0 +1,6 @@
+		}
+		else if( Number >= 70 && Number < 90 )
+		{
+			printf("Bigger!\n");
+		}
+		else if( Number >= 1 && Number <= 30 )
