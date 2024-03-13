@@ -1,0 +1,7 @@
+			printf("Your input number is %d\n",Number);
+		}while( !(Number>=1 && Number<=100) );
+		if( Number >= 90 )
+		{
+			printf("Too Bigger! Press any key to try again!\n");
+		}
+		else if( Number >= 70 && Number < 90 )
