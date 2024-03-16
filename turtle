@@ -1,0 +1,4 @@
+turtle.home()
+turtle.pendown()
+turtle.pensize(5)
+turtle.goto(-300,150)
