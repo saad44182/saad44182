@@ -1,0 +1,3 @@
+        double a = Math.random();
+        double b = Math.random();
+        double e = Math.random();
