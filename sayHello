@@ -1,0 +1,4 @@
+private static void sayHello(Function<String, String> func, String parameter){
+    String result = func.apply(parameter);
+    System.out.println(result);
+}
